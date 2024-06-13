@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  
+  align-items: center;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container1 {
+  width: 800px;
+}
+
+.door {
+  object-fit: cover;
+  width: 700px;
+}
+
+form  {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.heading {
+  color: blue;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.text {
+  color: blue;
+  margin-top: 10px;
+
+}
+#username {
+margin-bottom: 10px;
+width: 300px;
+height: 35px;
+border:  1px solid whitesmoke; 
+box-shadow: inset 1px 2px 3px whitesmoke;
+border-radius: 8px;
+padding-left: 5px;
+transition:  0.15s;
+}
+
+#username:hover {
+  border-color: blue;
+  border-width: 2PX;
+  border-radius: 8PX;
+}
+
+
+
+#password {
+  width: 300px;
+  height: 35px;
+  border-radius: 8px;
+  border:  1px solid whitesmoke; 
+  box-shadow: inset 1px 2px 3px whitesmoke;
+  border-radius: 8px;
+  padding-left: 5px;
+  transition:  0.15s;
+
+}
+
+#password:hover {
+  border-color: blue;
+  border-width: 2PX;
+  border-radius: 8PX;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+ 
+}
+
+.forget {
+  color: blue;
+  font-weight: 700;
+  font-size: bold;
+  margin-left: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  background-color: blue;
+  border: 0;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.tickbox {
+background-color: blue;
+color: blue;
+}
+
+.original {
+  color: black;
+  font-size: 13px;
+}
+
+.info2 {
+  font-size: 15px;
+}
